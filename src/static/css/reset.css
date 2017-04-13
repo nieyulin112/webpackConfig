@@ -1,0 +1,14 @@
+body, div, p, h1, h2, h3, h4, h5, h6, hr, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {margin:0; padding:0; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;}
+body, button, input, select, textarea {font:normal 12px/1  microsoft yahei, "\5b8b\4f53", Tahoma, Helvetica, Arial, sans-serif; line-height:22px }
+textarea {resize:none ;}
+table {border-collapse:collapse; border-spacing:0;}
+address, caption, cite, code, dfn, em, strong, th, var {font-style:normal; font-weight:normal;}
+h1 {font-size:18px }
+h2 {font-size:16px }
+h3 {font-size:14px }
+h4, h5, h6 {font-size:100% }
+a {text-decoration:none; outline: none; color:#464646;}
+a:hover {text-decoration:underline }
+input, button, textarea {outline:none }
+fieldset, img {border:0 }
+ul, ol {list-style:none }
