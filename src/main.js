@@ -17,11 +17,14 @@ class Global {
         })
         console.log('arr', arr)
     }
+    point = (x, y, z) => {
+        console.log(x, y, z)
+    }
 }
 console.log('global', new Global(2, 3).getFunction())
 class App extends Global {
     constructor (x, y, color) {
-        super(x, y).getFunction()
+        super(x, y)
         this.color = color
     }
     sayName = () => {
@@ -31,4 +34,5 @@ class App extends Global {
 let app = new App(1, 2, 'nieyulin')
 app.sayName()
 app.getFunction()
+app.point(1, 2, 3)
 export default Global
